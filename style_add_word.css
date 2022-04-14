@@ -47,8 +47,8 @@ h2{
     padding: 15px 25px 15px 25px;
     margin-left: 15px;
     border-radius: 5px;
-    background-color: #ff9900;
-    border: 1px solid #ff9900;
+    background-color: #348CEC;
+    border: 1px solid #348CEC;
     color: white;
     font-size: medium;
 }
@@ -56,8 +56,8 @@ h2{
     padding: 10px 20px 10px 20px;
     margin-left: 15px;
     border-radius: 5px;
-    background-color: #ff9900;
-    border: 1px solid #ff9900;
+    background-color: #348CEC;
+    border: 1px solid #348CEC;
     color: white;
     font-size: small;
 }
@@ -66,8 +66,8 @@ h2{
     margin-left: 15px;
     border-radius: 5px;
     background-color: white;
-    border: 1px solid #ff9900;
-    color: #ff9900;
+    border: 1px solid #348CEC;
+    color: #348CEC;
     font-size: medium;
     cursor: pointer;
 }
@@ -76,21 +76,21 @@ h2{
     border-radius: 5px;
     background-color: white;
     border: 0;
-    color: #ff9900;
-    border: 1px solid #ff9900;
+    color: #348CEC;
+    border: 1px solid #348CEC;
     transition: background-color .5s;
     cursor: pointer;
 }
 
 #nueva-palabra{
     border-radius: 5px;
-    border: 1px solid #ff9900;
+    border: 1px solid #348CEC;
 }
 
 /* estilos del footer */
 .footer {
     position:fixed;
-    bottom:0;
+    bottom:10px;
     left:0;
     width:100%;
     height: 40px;
@@ -98,7 +98,7 @@ h2{
   }
   
   .footer-text-left {
-    font-size:13px;
+    font-size:14px;
     padding-left:40px;
     float:left;
     word-spacing:0px;
@@ -106,16 +106,20 @@ h2{
   
   .menu:hover {
     background-color:skyblue;
-    font-size:13px;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 10px;
   }
   
   .menu {
   color: #141C24;
+  padding: 5px;
+  text-decoration: none;
   }
   
   .footer-content-right {
     padding-right:40px;
-    margin-top:0px;
+    margin-bottom:0px;
     float:right;
   }
   
@@ -123,12 +127,14 @@ h2{
     height:30px;
     margin-left:20px;
     margin-top:5px;
+    padding: 3px;
   }
   
   .icon-style:hover {
     background-color: skyblue;
-    padding:5px;
+    padding:3px;
     max-height: 100px;
+    border-radius: 10px;
   }
   
   #texto-encriptar, #texto-copiado{
