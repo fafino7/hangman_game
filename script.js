@@ -11,8 +11,6 @@ palabrasSecretas = ["PERRO", "GATO", "PAJARO", "ABUELO", "CONEJO", "FOCA", "MAIZ
 localStorage.setItem("palabrasSecretas", JSON.stringify(palabrasSecretas)); 
 palabrasSecretasAlmacenadas = JSON.parse(localStorage.getItem("palabrasSecretas"));
 
-
-
 /* variables globales */
 tamanhoArreglo = palabrasSecretasAlmacenadas.length - 1;
 numeroAleatorio = Math.round(Math.random()*tamanhoArreglo);
@@ -24,10 +22,6 @@ letraDibujada = [];
 /* Acciones de botones */
 btnNuevaPalabra.onclick = recargarPagina;
 btnMeRindo.onclick = meRindo;
-
-
-
-
 
 /* Deja pasar solo letras */
 function letraEscritas(evento){
@@ -43,7 +37,7 @@ function letraEscritas(evento){
         }
         
     }else{
-        alert("solo letras mijo");
+        alert("Solo letras amiga");
     }
     
 }
@@ -218,7 +212,7 @@ function dibujarHorca(){
         pincel.lineTo(175, 190);
         pincel.stroke();
 
-        alert("Acabas de matar al Señor Palitos, que pena");
+        alert("Acabas de matar a Mr. Palitos, una pena");
     }
 }
 
